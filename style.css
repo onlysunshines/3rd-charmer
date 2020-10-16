@@ -119,6 +119,11 @@ hr {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
+h4 {
+    text-align: left;
+    color: black;
+}
+
 /* anchor tag styling will be the same for all links */
 
 a:hover {
@@ -143,6 +148,8 @@ header nav ul li a {
 
 #welcome {
     padding: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 /* all of my classes */
 
@@ -169,6 +176,8 @@ header nav ul li a {
 .aboutWords {
     text-align: center;
     display: inline-block;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .contactList {
@@ -212,8 +221,8 @@ img {
 }
 
 #cs {
-    width: 80%;
-    height: 80%;
+    width: 50%;
+    height: 50%;
     border-radius: 15px;
 }
 
@@ -236,6 +245,9 @@ ul {
 #stooodster {
     width: 750px;
     padding-left: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .image {
@@ -247,6 +259,16 @@ ul {
 
 /* this is my in-page contact link */
 
+#skills {
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    align-items: center;
+}
+
+
+
+
 #contactMe{
     text-align: left;
 }
@@ -255,7 +277,7 @@ ul {
     display: flex;
     flex-direction: column;
     padding: 10px 0;
-    width: 99%;
+    width: 100%;
 }
 
 #name {
@@ -293,6 +315,8 @@ ul {
 textarea {
     height: 80px;
 }
+
+
 
 
 
@@ -414,4 +438,37 @@ textarea {
     form {
         font-size: 25px;
     }
+  }
+
+
+
+  @media all and (min-width: 1920px) {
+
+
+    footer {
+        width: 98.5%;
+    }
+
+    #contact {
+        display: inline-block;
+        align-items: left;
+        justify-content: left;
+    }
+
+    #nine {
+        display: inline-block;
+        text-align: left;
+        align-items: left;
+    }
+
+    #nineMap {
+        display: inline-block;
+        align-items: right;
+    }
+    
+    #cs {
+        height: 45%;
+        width: 45%;
+    }
+
   }
