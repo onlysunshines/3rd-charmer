@@ -266,8 +266,10 @@ ul {
     align-items: center;
 }
 
-
-
+#nine {
+    margin-left: 5%;
+    margin-right: 5%;
+}
 
 #contactMe{
     text-align: left;
