@@ -1,2 +1,2 @@
 # 3rd-charmer
-Webpage portfolio only showing readme, changed the html file name to index.  let's see what happens.
+A little sampler to get to know me
